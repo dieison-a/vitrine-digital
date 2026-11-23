@@ -1,0 +1,66 @@
+﻿<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Um catálogo editorial de peças para casa, com filtros simples e descrições próprias para explorar composição e organização de conteúdo.">
+    <title>
+      Casa em Camadas
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js">
+    </script>
+  </head>
+  <body>
+    <header class="topo">
+      <a class="marca" href="index.html">
+        PROJETO
+        <span>
+          ·
+        </span>
+        Casa
+      </a>
+      <span class="selo">
+        DEMONSTRAÇÃO LOCAL
+      </span>
+    </header>
+    <main>
+      <section class="abertura">
+        <p class="sobretitulo">
+          ESTUDO INTERATIVO · JAVASCRIPT
+        </p>
+        <h1>
+          Casa em Camadas
+        </h1>
+        <p class="introducao">
+          Um catálogo editorial de peças para casa, com filtros simples e descrições próprias para explorar composição e organização de conteúdo.
+        </p>
+      </section>
+      <section class="painel">
+        <h2>
+          Escolha uma coleção
+        </h2>
+        <div class="acoes" id="filtros">
+          <button data-grupo="Tudo">
+            Tudo
+          </button>
+          <button data-grupo="Têxteis">
+            Têxteis
+          </button>
+          <button data-grupo="Cerâmica">
+            Cerâmica
+          </button>
+          <button data-grupo="Iluminação">
+            Iluminação
+          </button>
+        </div>
+      </section>
+      <section id="colecao" class="grade" aria-live="polite">
+      </section>
+    </main>
+    <footer>
+      Projeto demonstrativo independente · dados fictícios · sem serviços externos
+    </footer>
+  </body>
+</html>
+
